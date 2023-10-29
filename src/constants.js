@@ -24,7 +24,7 @@ export default {
     "van", // too similar to other types of vehicles
   ],
   PREDICTION_REFRESH_TIME: 10,
-  BRUSH_SIZE: IS_MOBILE ? 10 : 12,
+  BRUSH_SIZE: IS_MOBILE ? 8 : 10,
   TARGET_FPS: 60,
   GAME_DURATION: 60 + 0.5, // + 0.5 so it doesn't flicker (TODO: change to 60)
   COUNTDOWN_TIMER: 3,
